@@ -60,3 +60,4 @@ print(languages.get('a'))
 print(languages.get((7, 9))) # this will return None
 print(languages['a'])
 # print(languages[(7, 9)]) - this will throw an error
+print(languages[(0, 2)])
